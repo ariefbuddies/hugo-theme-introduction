@@ -1,6 +1,5 @@
 +++
 date = 2020-05-26T17:00:00Z
-draft = true
 tags = ["Eunha"]
 title = "Eunha aaaaah"
 
