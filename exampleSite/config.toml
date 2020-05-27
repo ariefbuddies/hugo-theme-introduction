@@ -1,4 +1,4 @@
-baseURL                          = "http://example.com/"  # Your domain name. Must end with "/"
+baseURL                          = "https://intro-ariefb.netlify.app/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
@@ -11,18 +11,18 @@ DefaultContentLanguage           = "en"                    # Default language fo
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "youremail@email.com"   # E-mail address for contact section
+    email                        = "ariefbuddies@qmail.id"   # E-mail address for contact section
     # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
 
     # Configure the home page
     [params.home]
-        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
+        introHeight              = "medium"            # Input either "medium" or "large" or "fullheight"
         showLatest               = true                    # Show latest blog post summary
-        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
+        showAllPosts             = true                   # Set true to list all posts on home page, or set false to link to separate blog list page
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
 
         localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeZone                 = "Asia/Jakarta"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
     [params.projects]
         useTwoColumns            = false                   # Use a layout with two columns instead of three
@@ -61,14 +61,14 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
 
 # If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+[[menu.main]]
+     name    = "Home"
+     url     = "/"
+     weight  = 0
+[[menu.main]]
+     name    = "Blog"
+     url     = "/blog/"
+     weight  = 1
 
 # We only use tag as a taxonomies
 # You can add more by yourself
@@ -83,7 +83,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         weight           = 0
         title            = "Introduction"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
+            description  = "AriefB Portofolio"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
     [languages.es]
