@@ -1,6 +1,6 @@
 ---
-title: "Hi, I'm Introduction"
+title: "Hi, I'm AriefB"
 headless: true
 ---
 
-I'm a theme for Hugo
+I'm a very passionate web developer
