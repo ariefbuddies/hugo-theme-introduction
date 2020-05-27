@@ -71,7 +71,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
      weight  = 2
 [[menu.main]]
      name    = "Projects"
-     url     = "/project/"
+     url     = "/projects/"
      weight  = 0
 
 # We only use tag as a taxonomies
@@ -85,7 +85,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Introduction of AriefB"
         [languages.en.params]
             description  = "AriefB Portofolio"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
